@@ -15,7 +15,7 @@ namespace EnthusiasticMoose
             MooseSays("I really am enthusiastic");
         }
 
-        static void MooseSays()
+        static void MooseSays(string message)
         {
             Console.WriteLine($@"
                                        _.--^^^--,
