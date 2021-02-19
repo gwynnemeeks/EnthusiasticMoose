@@ -16,7 +16,7 @@ namespace EnthusiasticMoose
 
         static void MooseSays()
         {
-            Console.WriteLine(@"
+            Console.WriteLine($@"
                                        _.--^^^--,
                                     .'          `\
   .-^^^^^^-.                      .'              |
@@ -33,7 +33,7 @@ namespace EnthusiasticMoose
                '-'    | /       \ |
                       |  .-. .-.  |
                       \ / o| |o \ /
-                       |   / \   |    H I, I'M  E N T H U S I A S T I C !
+                       |   / \   |    {message}
                       / `^`   `^` \
                      /             \
                     | '._.'         \
