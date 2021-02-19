@@ -11,7 +11,8 @@ namespace EnthusiasticMoose
             Console.WriteLine();
 
             // Let the moose speak!
-            MooseSays();
+            MooseSays("H I, I'M  E N T H U S I A S T I C !");
+            MooseSays("I really am enthusiastic");
         }
 
         static void MooseSays()
