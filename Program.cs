@@ -9,6 +9,9 @@ namespace EnthusiasticMoose
             Console.WriteLine("Welcome to the Enthusiastic Moose Simulator!");
             Console.WriteLine("--------------------------------------------");
             Console.WriteLine();
+
+            // Let the moose speak!
+            MooseSays();
         }
 
         static void MooseSays()
