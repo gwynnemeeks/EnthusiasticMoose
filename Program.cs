@@ -16,6 +16,9 @@ namespace EnthusiasticMoose
 
             // As a question
             CanadaQuestion();
+            EnthusiasticQuestion();
+            LoveCSharpQuestion();
+            SecretQuestion();
         }
 
         static void CanadaQuestion()
