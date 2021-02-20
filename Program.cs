@@ -15,6 +15,11 @@ namespace EnthusiasticMoose
             MooseSays("I really am enthusiastic");
 
             // As a question
+            CanadaQuestion();
+        }
+
+        static void CanadaQuestion()
+        {
             bool isTrue = MooseAsks("Is Canada real?");
             if (isTrue)
             {
